@@ -1,0 +1,242 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  background: #166FE5;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.container{
+  width: 65%;
+  margin: auto;
+  max-width: 1000px;
+}
+.logo-area{
+  width: 30%;
+  float: left;
+}
+.logo-area img{
+  width: 170px;
+  margin-top: 12px;
+}
+.login-area{
+  width: 70%;
+  float: left;
+  color: white;
+}
+.login-area form{
+  float: right;
+}
+.login-area label,
+.login-area input{
+  display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+  float: left;
+  margin-right: 15px;
+}
+.login-area label{
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.login-area .login{
+  margin-right: 0px;
+}
+.login-area input[type='text'],
+.login-area input[type='password']{
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 2px 5px;
+}
+.login-area .password a{
+  text-decoration: none;
+  color: #9cb4d8;
+  font-size: 12px;
+}
+.login-area .password a:hover{
+  text-decoration: underline;
+}
+.login-area input[type="submit"]{
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  padding: 3px 10px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+/* End head area */
+.signup-area{
+  background-color: #EAEDF4;
+  overflow: hidden;
+  padding: 20px 0;
+}
+.left-area{
+  width: 55%;
+  float: left;
+}
+.left-area p{
+  font-size: 20px;
+  color: #1c1e21;
+  font-weight: normal;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  width: 450px;
+}
+.right-area{
+  width: 45%;
+  float: left;
+}
+.right-area h2{
+  font-size: 25px;
+  color: #333;
+  margin: 0;
+}
+.right-area h4{
+  font-size: 19px;
+  color:#1d2129;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #bdc7d8;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 5px 0;
+  padding: 8px 10px;
+}
+.full-name{
+
+}
+.first-name{
+  width: 48%;
+  float: left;
+  padding: 4px;
+}
+.surname{
+  width: 48%;
+  float: left;
+}
+.Birthday{
+overflow: hidden;
+}
+.Birthday h3{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.birth-date{
+overflow: hidden;
+float: left;
+margin-right: 10px;
+width: 200px;
+}
+.birth-date select{
+  border: 1px solid #ccc;
+  padding: 5px;
+  float: left;
+}
+.Gender{
+  margin: 10px 0;
+}
+.Gender label{
+  font-size: 17px;
+  font-weight: 500;
+  color: #1d2129;
+}
+.text-box{
+margin-bottom: 20px;
+
+}
+.text-box p{
+ font-size: 15px;
+ color:black;
+ width: 90%;
+}
+.text-box a{
+  text-decoration: none;
+  color: #365899;
+}
+.text-box a:hover{
+  text-decoration: underline;
+}
+.btn{
+  margin-bottom: 30px;
+}
+.btn input{
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 10px 32px;
+  text-shadow: none;
+}
+.business{
+  font-weight: 700;
+  color: #666
+}
+.business a{
+  text-decoration: none;
+  color: #365899;
+
+}
+.business a:hover{
+  text-decoration: underline;
+}
+/* End Sign up area */
+.footer-area{
+  padding: 30px 0;
+}
+.footer-area ul{
+  margin: 0;
+  padding: 0;
+}
+.footer-area ul li{
+  display: inline;
+
+}
+.footer-area ul li a{
+  text-decoration: none;
+  color: #8a8d91;
+  font-size: 13px;
+}
+.footer-area ul li .active a{
+  color: #737373;
+}
+.footer-area span{
+  color:#737373;
+  font-size: 13px;
+}
+.footer-area .top ul li{
+  margin-right: 5px;
+}
+.footer-area .middle ul li{
+  margin-right: 10px;
+}
+.footer-area .top ul li:last-child
+.footer-area .bottom ul li:last-child{
+  margin-right: 0;
+
+}
+.footer-area .top ul li:last-child a{
+  border: 1px solid #999;
+  padding: 0 5px;
+  }
+.footer-area hr{
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+  }
+.footer-area .bottom{
+    margin-top: 20px;
+}
